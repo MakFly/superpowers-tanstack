@@ -1,0 +1,43 @@
+{
+  "name": "superpowers-tanstack",
+  "version": "0.1.0",
+  "description": "A TanStack Start focused toolkit for Claude Code providing file-based routing, server functions, data loaders, forms, SSR, streaming, and full-stack type-safe patterns - compatible with npm/yarn/pnpm/bun and Vite",
+  "author": "MakFly",
+  "license": "MIT",
+  "homepage": "https://github.com/MakFly/superpowers-tanstack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakFly/superpowers-tanstack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MakFly/superpowers-tanstack/issues"
+  },
+  "keywords": [
+    "tanstack",
+    "tanstack-start",
+    "tanstack-router",
+    "tanstack-query",
+    "tanstack-form",
+    "react",
+    "vite",
+    "server-functions",
+    "typescript",
+    "skills",
+    "tdd",
+    "testing",
+    "vitest",
+    "playwright",
+    "ssr",
+    "streaming",
+    "claude-code",
+    "claude-code-plugin"
+  ],
+  "engines": {
+    "claude-code": ">=2.0.0"
+  },
+  "categories": [
+    "frameworks",
+    "testing",
+    "productivity"
+  ]
+}

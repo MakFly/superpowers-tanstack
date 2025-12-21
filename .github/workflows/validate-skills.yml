@@ -1,0 +1,34 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tsx
+        run: npm install -g tsx
+
+      - name: Validate plugin structure
+        run: npx tsx scripts/validate_skills.ts
+
+      - name: Check session-start.sh is executable
+        run: |
+          if [ ! -x hooks/session-start.sh ]; then
+            echo "Error: hooks/session-start.sh is not executable"
+            exit 1
+          fi
+          echo "hooks/session-start.sh is executable"
