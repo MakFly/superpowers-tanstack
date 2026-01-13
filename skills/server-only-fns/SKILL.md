@@ -1,6 +1,6 @@
 ---
 name: tanstack:server-only-fns
-description: Use when implement server-only functions for database access, secrets, and sensitive operations
+description: Use when tanstack server only fns
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:server-only-fns (Compact)
+# tanstack:server-only-fns (Micro)
 
 ## Use when
-- Implement server-only functions for database access, secrets, and sensitive operations
+- Use when tanstack server only fns
 
-## Topics covered
-- Concept
-- Architecture
-- Implémentation Détaillée
-- Best Practices
-- Avantages
+## Tags
+- server
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,6 +1,6 @@
 ---
 name: tanstack:form-validation
-description: Use when implement client and server-side validation with Zod, Valibot, or custom validators
+description: Use when tanstack form validation
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:form-validation (Compact)
+# tanstack:form-validation (Micro)
 
 ## Use when
-- Implement client and server-side validation with Zod, Valibot, or custom validators
+- Use when tanstack form validation
 
-## Topics covered
-- Concept
-- Architecture Validation
-- Patterns Complets
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

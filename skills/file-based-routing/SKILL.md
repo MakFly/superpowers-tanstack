@@ -1,31 +1,28 @@
 ---
 name: tanstack:file-based-routing
-description: Use when master TanStack Router's file-based routing with automatic route generation and type safety
+description: Use when tanstack file based routing
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:file-based-routing (Compact)
+# tanstack:file-based-routing (Micro)
 
 ## Use when
-- Master TanStack Router's file-based routing with automatic route generation and type safety
+- Use when tanstack file based routing
 
-## Topics covered
-- Concept
-- Architecture
-- Implémentation Complète
-- Best Practices
-- Avantages
+## Tags
+- routing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

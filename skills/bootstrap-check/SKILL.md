@@ -1,31 +1,25 @@
 ---
 name: tanstack:bootstrap-check
-description: Use when verify TanStack Start project configuration including Vite, TypeScript, and routing setup
+description: Use when tanstack bootstrap check
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# tanstack:bootstrap-check (Compact)
+# tanstack:bootstrap-check (Micro)
 
 ## Use when
-- Verify TanStack Start project configuration including Vite, TypeScript, and routing setup
+- Use when tanstack bootstrap check
 
-## Topics covered
-- Quick Health Check Command
-- Configuration Files Checklist
-- package.json Verification
-- TypeScript Configuration Verification
-- Vite Configuration Verification
-- TanStack Router Configuration
-- File-Based Routing Structure
-- Dependencies Health Check
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

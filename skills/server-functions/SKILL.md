@@ -1,6 +1,6 @@
 ---
 name: tanstack:server-functions
-description: Use when create server functions with 'use server' directive for secure server-only execution
+description: Use when tanstack server functions
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:server-functions (Compact)
+# tanstack:server-functions (Micro)
 
 ## Use when
-- Create server functions with 'use server' directive for secure server-only execution
+- Use when tanstack server functions
 
-## Topics covered
-- Concept
-- Architecture Générale
-- Implémentation Détaillée
-- Best Practices
-- Avantages
+## Tags
+- server
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,30 +1,28 @@
 ---
 name: tanstack:type-safety-patterns
-description: Use when leverage full TypeScript inference from routes to loaders to components
+description: Use when tanstack type safety patterns
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:type-safety-patterns (Compact)
+# tanstack:type-safety-patterns (Micro)
 
 ## Use when
-- Leverage full TypeScript inference from routes to loaders to components
+- Use when tanstack type safety patterns
 
-## Topics covered
-- Concept
-- Full Type Inference
-- Best Practices
-- Avantages
+## Tags
+- type-safety
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

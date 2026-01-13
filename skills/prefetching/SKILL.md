@@ -1,31 +1,25 @@
 ---
 name: tanstack:prefetching
-description: Use when prefetch route data on hover and navigation intent for instant transitions
+description: Use when tanstack prefetching
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:prefetching (Compact)
+# tanstack:prefetching (Micro)
 
 ## Use when
-- Prefetch route data on hover and navigation intent for instant transitions
+- Use when tanstack prefetching
 
-## Topics covered
-- Concept
-- Stratégies de Prefetching
-- Implémentation Complète
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

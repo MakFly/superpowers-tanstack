@@ -1,6 +1,6 @@
 ---
 name: tanstack:route-loaders
-description: Use when implement route loaders for data fetching with beforeLoad and loader functions
+description: Use when tanstack route loaders
 allowed-tools:
   - Read
   - Write
@@ -10,23 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:route-loaders (Compact)
+# tanstack:route-loaders (Micro)
 
 ## Use when
-- Implement route loaders for data fetching with beforeLoad and loader functions
+- Use when tanstack route loaders
 
-## Topics covered
-- Concept
-- Lifecycle des Loaders
-- Architecture Complète
-- Implémentation Détaillée
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

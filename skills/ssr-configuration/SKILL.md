@@ -1,6 +1,6 @@
 ---
 name: tanstack:ssr-configuration
-description: Use when configure SSR with entry-server.tsx, entry-client.tsx, and hydration
+description: Use when tanstack ssr configuration
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:ssr-configuration (Compact)
+# tanstack:ssr-configuration (Micro)
 
 ## Use when
-- Configure SSR with entry-server.tsx, entry-client.tsx, and hydration
+- Use when tanstack ssr configuration
 
-## Topics covered
-- Concept
-- Architecture SSR
-- Configuration Complète
-- Best Practices
-- Avantages
+## Tags
+- ssr
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

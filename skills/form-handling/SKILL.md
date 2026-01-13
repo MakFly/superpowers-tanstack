@@ -1,6 +1,6 @@
 ---
 name: tanstack:form-handling
-description: Use when build forms with TanStack Form or native forms with server mutations
+description: Use when tanstack form handling
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:form-handling (Compact)
+# tanstack:form-handling (Micro)
 
 ## Use when
-- Build forms with TanStack Form or native forms with server mutations
+- Use when tanstack form handling
 
-## Topics covered
-- Concept
-- Architecture Formes
-- Patterns Complets
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

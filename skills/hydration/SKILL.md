@@ -1,31 +1,25 @@
 ---
 name: tanstack:hydration
-description: Use when handle hydration correctly with proper state synchronization
+description: Use when tanstack hydration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:hydration (Compact)
+# tanstack:hydration (Micro)
 
 ## Use when
-- Handle hydration correctly with proper state synchronization
+- Use when tanstack hydration
 
-## Topics covered
-- Concept
-- Architecture Hydration
-- Patterns Hydration
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

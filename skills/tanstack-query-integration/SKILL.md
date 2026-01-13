@@ -1,34 +1,28 @@
 ---
 name: tanstack:tanstack-query-integration
-description: Use when tanStack Query integration for data fetching - caching strategies, synchronization, and state management
+description: Use when tanstack tanstack query integration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:tanstack-query-integration (Compact)
+# tanstack:tanstack-query-integration (Micro)
 
 ## Use when
-- TanStack Query integration for data fetching - caching strategies, synchronization, and state management
+- Use when tanstack tanstack query integration
 
-## Topics covered
-- Overview
-- Installation & Setup
-- Query Patterns
-- Pagination Patterns
-- Mutation Patterns
-- Query Client Management
-- Error Handling
-- Advanced Patterns
+## Tags
+- query
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

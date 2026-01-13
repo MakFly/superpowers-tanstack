@@ -1,31 +1,25 @@
 ---
 name: tanstack:writing-plans
-description: Use when implementation planning for TanStack Start - task decomposition, routing architecture, and execution roadmaps
+description: Use when tanstack writing plans
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# tanstack:writing-plans (Compact)
+# tanstack:writing-plans (Micro)
 
 ## Use when
-- Implementation planning for TanStack Start - task decomposition, routing architecture, and execution roadmaps
+- Use when tanstack writing plans
 
-## Topics covered
-- Implementation Plan Template
-- Feature: [Feature Name]
-- Technical Specification
-- Phase 1: Foundation (Week 1)
-- Phase 2: Frontend (Week 1-2)
-- Phase 3: Integration & Polish (Week 2)
-- Route Architecture
-- Server Function Implementation
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

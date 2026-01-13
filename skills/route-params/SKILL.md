@@ -1,32 +1,25 @@
 ---
 name: tanstack:route-params
-description: Use when handle dynamic route parameters with full TypeScript inference and validation
+description: Use when tanstack route params
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:route-params (Compact)
+# tanstack:route-params (Micro)
 
 ## Use when
-- Handle dynamic route parameters with full TypeScript inference and validation
+- Use when tanstack route params
 
-## Topics covered
-- Concept
-- Types de Paramètres
-- Inférence de Type Automatique
-- Implémentation Complète
-- Patterns Avancés
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

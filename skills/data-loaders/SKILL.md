@@ -1,6 +1,6 @@
 ---
 name: tanstack:data-loaders
-description: Use when implement data loaders with prefetching, caching, and streaming patterns
+description: Use when tanstack data loaders
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:data-loaders (Compact)
+# tanstack:data-loaders (Micro)
 
 ## Use when
-- Implement data loaders with prefetching, caching, and streaming patterns
+- Use when tanstack data loaders
 
-## Topics covered
-- Concept
-- Architecture du Data Loading
-- Patterns Avancés
-- Best Practices
-- Avantages
+## Tags
+- data
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

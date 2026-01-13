@@ -1,31 +1,25 @@
 ---
 name: tanstack:streaming
-description: Use when implement streaming SSR with deferred data and progressive rendering
+description: Use when tanstack streaming
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:streaming (Compact)
+# tanstack:streaming (Micro)
 
 ## Use when
-- Implement streaming SSR with deferred data and progressive rendering
+- Use when tanstack streaming
 
-## Topics covered
-- Concept
-- Architecture Streaming
-- Patterns de Streaming
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

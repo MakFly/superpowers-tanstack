@@ -1,6 +1,6 @@
 ---
 name: tanstack:testing-patterns
-description: Use when test TanStack Start applications with proper mocking and isolation
+description: Use when tanstack testing patterns
 allowed-tools:
   - Read
   - Write
@@ -10,22 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:testing-patterns (Compact)
+# tanstack:testing-patterns (Micro)
 
 ## Use when
-- Test TanStack Start applications with proper mocking and isolation
+- Use when tanstack testing patterns
 
-## Topics covered
-- Concept
-- Stratégie de Test
-- Patterns de Test
-- Best Practices
-- Avantages
+## Tags
+- testing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

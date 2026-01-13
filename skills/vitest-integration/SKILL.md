@@ -1,30 +1,25 @@
 ---
 name: tanstack:vitest-integration
-description: Use when configure Vitest for TanStack Start with server function mocking
+description: Use when tanstack vitest integration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:vitest-integration (Compact)
+# tanstack:vitest-integration (Micro)
 
 ## Use when
-- Configure Vitest for TanStack Start with server function mocking
+- Use when tanstack vitest integration
 
-## Topics covered
-- Concept
-- Configuration Vitest
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

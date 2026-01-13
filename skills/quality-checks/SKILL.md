@@ -1,31 +1,28 @@
 ---
 name: tanstack:quality-checks
-description: Use when quality assurance for TanStack Start - type safety, testing, performance, and standards validation
+description: Use when tanstack quality checks
 allowed-tools:
   - Read
+  - Write
+  - Edit
+  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:quality-checks (Compact)
+# tanstack:quality-checks (Micro)
 
 ## Use when
-- Quality assurance for TanStack Start - type safety, testing, performance, and standards validation
+- Use when tanstack quality checks
 
-## Topics covered
-- Overview
-- 1. TypeScript Configuration
-- 2. ESLint Configuration
-- 3. Testing Requirements
-- Coverage Targets
-- Critical Areas (100%)
-- Should Test (80%+)
-- Can Test (70%+)
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

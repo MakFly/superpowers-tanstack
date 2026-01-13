@@ -1,6 +1,6 @@
 ---
 name: tanstack:tanstack-form-integration
-description: Use when tanStack Form integration for form handling - validation, state management, and field management
+description: Use when tanstack tanstack form integration
 allowed-tools:
   - Read
   - Write
@@ -10,25 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:tanstack-form-integration (Compact)
+# tanstack:tanstack-form-integration (Micro)
 
 ## Use when
-- TanStack Form integration for form handling - validation, state management, and field management
+- Use when tanstack tanstack form integration
 
-## Topics covered
-- Installation & Setup
-- Field Management
-- Validation Patterns
-- Complex Form Patterns
-- Form State Management
-- Submission Handling
-- Testing Forms
-- Integration with TanStack Query
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

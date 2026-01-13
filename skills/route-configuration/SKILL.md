@@ -1,6 +1,6 @@
 ---
 name: tanstack:route-configuration
-description: Use when configure routes with createFileRoute, route options, and the routeTree.gen.ts system
+description: Use when tanstack route configuration
 allowed-tools:
   - Read
   - Write
@@ -10,23 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# tanstack:route-configuration (Compact)
+# tanstack:route-configuration (Micro)
 
 ## Use when
-- Configure routes with createFileRoute, route options, and the routeTree.gen.ts system
+- Use when tanstack route configuration
 
-## Topics covered
-- Concept
-- Architecture de Configuration
-- API createFileRoute() Complète
-- Implémentation Détaillée
-- Best Practices
-- Avantages de la Configuration
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

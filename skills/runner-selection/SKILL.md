@@ -1,31 +1,25 @@
 ---
 name: tanstack:runner-selection
-description: Use when select and configure the appropriate package manager based on project configuration
+description: Use when tanstack runner selection
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# tanstack:runner-selection (Compact)
+# tanstack:runner-selection (Micro)
 
 ## Use when
-- Select and configure the appropriate package manager based on project configuration
+- Use when tanstack runner selection
 
-## Topics covered
-- Automatic Runner Detection
-- Package Manager Details
-- Decision Tree
-- Switching Package Managers
-- Monorepo Considerations
-- Performance Comparison
-- Environment Variables
-- Troubleshooting
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,27 +1,25 @@
 ---
 name: tanstack:project-structure
-description: Use when organize TanStack Start projects with feature-based folder structures
+description: Use when tanstack project structure
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# tanstack:project-structure (Compact)
+# tanstack:project-structure (Micro)
 
 ## Use when
-- Organize TanStack Start projects with feature-based folder structures
+- Use when tanstack project structure
 
-## Topics covered
-- Concept
-- Structure Recommandée
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

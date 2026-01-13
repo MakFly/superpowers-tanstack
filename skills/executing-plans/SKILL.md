@@ -1,31 +1,28 @@
 ---
 name: tanstack:executing-plans
-description: Use when test-driven execution for TanStack Start - implementing features with comprehensive testing and quality assurance
+description: Use when tanstack executing plans
 allowed-tools:
   - Read
+  - Write
+  - Edit
+  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:executing-plans (Compact)
+# tanstack:executing-plans (Micro)
 
 ## Use when
-- Test-driven execution for TanStack Start - implementing features with comprehensive testing and quality assurance
+- Use when tanstack executing plans
 
-## Topics covered
-- TDD Workflow Overview
-- Route Testing
-- Component Testing
-- Form Testing
-- Integration Testing
-- E2E Testing with Playwright
-- Performance Testing
-- Testing Utilities
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

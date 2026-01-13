@@ -1,32 +1,25 @@
 ---
 name: tanstack:route-search-params
-description: Use when manage search parameters with type-safe validation and serialization
+description: Use when tanstack route search params
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# tanstack:route-search-params (Compact)
+# tanstack:route-search-params (Micro)
 
 ## Use when
-- Manage search parameters with type-safe validation and serialization
+- Use when tanstack route search params
 
-## Topics covered
-- Concept
-- Différences: Params vs Search
-- Architecture de Validation
-- Implémentation Complète
-- Best Practices
-- Avantages
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

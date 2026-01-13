@@ -1,31 +1,25 @@
 ---
 name: tanstack:brainstorming
-description: Use when structured ideation for TanStack Start applications - feature discovery, architecture patterns, and technology decisions
+description: Use when tanstack brainstorming
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# tanstack:brainstorming (Compact)
+# tanstack:brainstorming (Micro)
 
 ## Use when
-- Structured ideation for TanStack Start applications - feature discovery, architecture patterns, and technology decisions
+- Use when tanstack brainstorming
 
-## Topics covered
-- Overview
-- Problem Definition Phase
-- Problem Definition
-- Problem: Build Modern E-commerce Platform
-- Solution Exploration Phase
-- Architecture Decision: SPA vs SSR vs Hybrid
-- Data Flow Patterns
-- Technology Selection
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details
