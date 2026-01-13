@@ -1,6 +1,13 @@
 ---
 name: tanstack:route-loaders
 description: Implement route loaders for data fetching with beforeLoad and loader functions
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:route-loaders (Compact)

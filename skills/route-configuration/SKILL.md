@@ -1,6 +1,13 @@
 ---
 name: tanstack:route-configuration
 description: Configure routes with createFileRoute, route options, and the routeTree.gen.ts system
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:route-configuration (Compact)

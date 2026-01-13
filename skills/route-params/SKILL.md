@@ -1,6 +1,13 @@
 ---
 name: tanstack:route-params
 description: Handle dynamic route parameters with full TypeScript inference and validation
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:route-params (Compact)

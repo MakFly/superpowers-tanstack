@@ -1,6 +1,13 @@
 ---
 name: tanstack:runner-selection
 description: Select and configure the appropriate package manager based on project configuration
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:runner-selection (Compact)

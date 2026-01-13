@@ -1,6 +1,13 @@
 ---
 name: tanstack:server-functions
 description: Create server functions with 'use server' directive for secure server-only execution
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:server-functions (Compact)

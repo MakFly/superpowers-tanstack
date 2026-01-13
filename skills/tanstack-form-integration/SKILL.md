@@ -1,6 +1,13 @@
 ---
 name: tanstack:tanstack-form-integration
 description: TanStack Form integration for form handling - validation, state management, and field management
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:tanstack-form-integration (Compact)

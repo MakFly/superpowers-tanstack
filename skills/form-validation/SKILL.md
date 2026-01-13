@@ -1,6 +1,13 @@
 ---
 name: tanstack:form-validation
 description: Implement client and server-side validation with Zod, Valibot, or custom validators
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:form-validation (Compact)

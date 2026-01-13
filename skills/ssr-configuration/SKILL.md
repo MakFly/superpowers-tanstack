@@ -1,6 +1,13 @@
 ---
 name: tanstack:ssr-configuration
 description: Configure SSR with entry-server.tsx, entry-client.tsx, and hydration
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:ssr-configuration (Compact)

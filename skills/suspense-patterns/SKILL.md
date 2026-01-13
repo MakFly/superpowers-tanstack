@@ -1,6 +1,13 @@
 ---
 name: tanstack:suspense-patterns
 description: Use Suspense boundaries for loading states and streaming SSR
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:suspense-patterns (Compact)

@@ -1,6 +1,13 @@
 ---
 name: tanstack:quality-checks
 description: Quality assurance for TanStack Start - type safety, testing, performance, and standards validation
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:quality-checks (Compact)

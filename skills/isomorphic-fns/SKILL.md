@@ -1,6 +1,13 @@
 ---
 name: tanstack:isomorphic-fns
 description: Build isomorphic functions that run correctly on both server and client
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:isomorphic-fns (Compact)

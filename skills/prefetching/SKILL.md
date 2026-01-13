@@ -1,6 +1,13 @@
 ---
 name: tanstack:prefetching
 description: Prefetch route data on hover and navigation intent for instant transitions
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:prefetching (Compact)

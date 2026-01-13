@@ -1,6 +1,13 @@
 ---
 name: tanstack:error-boundaries
 description: Implement error boundaries with errorComponent and recovery patterns
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:error-boundaries (Compact)

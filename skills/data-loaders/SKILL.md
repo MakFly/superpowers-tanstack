@@ -1,6 +1,13 @@
 ---
 name: tanstack:data-loaders
 description: Implement data loaders with prefetching, caching, and streaming patterns
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:data-loaders (Compact)

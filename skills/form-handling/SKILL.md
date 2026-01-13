@@ -1,6 +1,13 @@
 ---
 name: tanstack:form-handling
 description: Build forms with TanStack Form or native forms with server mutations
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:form-handling (Compact)

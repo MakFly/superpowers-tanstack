@@ -1,6 +1,13 @@
 ---
 name: tanstack:tanstack-query-integration
 description: TanStack Query integration for data fetching - caching strategies, synchronization, and state management
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:tanstack-query-integration (Compact)

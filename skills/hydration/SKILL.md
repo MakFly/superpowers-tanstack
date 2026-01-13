@@ -1,6 +1,13 @@
 ---
 name: tanstack:hydration
 description: Handle hydration correctly with proper state synchronization
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:hydration (Compact)

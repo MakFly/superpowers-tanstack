@@ -1,6 +1,13 @@
 ---
 name: tanstack:project-structure
 description: Organize TanStack Start projects with feature-based folder structures
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:project-structure (Compact)

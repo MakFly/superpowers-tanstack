@@ -1,6 +1,13 @@
 ---
 name: tanstack:type-safety-patterns
 description: Leverage full TypeScript inference from routes to loaders to components
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # tanstack:type-safety-patterns (Compact)
