@@ -3,9 +3,6 @@ name: tanstack:using-tanstack-superpowers
 description: Entry point for TanStack Start Superpowers - lightweight workflow guidance and command map.
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

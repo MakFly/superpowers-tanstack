@@ -3,9 +3,6 @@ name: tanstack:writing-plans
 description: Implementation planning for TanStack Start - task decomposition, routing architecture, and execution roadmaps
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

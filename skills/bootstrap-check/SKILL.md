@@ -3,9 +3,6 @@ name: tanstack:bootstrap-check
 description: Verify TanStack Start project configuration including Vite, TypeScript, and routing setup
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
