@@ -1,6 +1,6 @@
 ---
 name: tanstack:brainstorming
-description: Structured ideation for TanStack Start applications - feature discovery, architecture patterns, and technology decisions
+description: Use when structured ideation for TanStack Start applications - feature discovery, architecture patterns, and technology decisions
 allowed-tools:
   - Read
   - Glob

@@ -1,6 +1,6 @@
 ---
 name: tanstack:route-search-params
-description: Manage search parameters with type-safe validation and serialization
+description: Use when manage search parameters with type-safe validation and serialization
 allowed-tools:
   - Read
   - Write

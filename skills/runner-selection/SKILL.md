@@ -1,6 +1,6 @@
 ---
 name: tanstack:runner-selection
-description: Select and configure the appropriate package manager based on project configuration
+description: Use when select and configure the appropriate package manager based on project configuration
 allowed-tools:
   - Read
   - Glob

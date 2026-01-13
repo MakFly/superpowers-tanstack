@@ -1,6 +1,6 @@
 ---
 name: tanstack:route-params
-description: Handle dynamic route parameters with full TypeScript inference and validation
+description: Use when handle dynamic route parameters with full TypeScript inference and validation
 allowed-tools:
   - Read
   - Write

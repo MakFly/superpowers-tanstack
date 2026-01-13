@@ -1,6 +1,6 @@
 ---
 name: tanstack:isomorphic-fns
-description: Build isomorphic functions that run correctly on both server and client
+description: Use when build isomorphic functions that run correctly on both server and client
 allowed-tools:
   - Read
   - Write

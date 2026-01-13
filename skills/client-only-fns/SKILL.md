@@ -1,6 +1,6 @@
 ---
 name: tanstack:client-only-fns
-description: Create client-only functions for browser APIs, localStorage, and client state
+description: Use when create client-only functions for browser APIs, localStorage, and client state
 allowed-tools:
   - Read
   - Write

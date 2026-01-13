@@ -1,6 +1,6 @@
 ---
 name: tanstack:vitest-integration
-description: Configure Vitest for TanStack Start with server function mocking
+description: Use when configure Vitest for TanStack Start with server function mocking
 allowed-tools:
   - Read
   - Write

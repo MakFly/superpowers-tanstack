@@ -1,6 +1,6 @@
 ---
 name: tanstack:route-configuration
-description: Configure routes with createFileRoute, route options, and the routeTree.gen.ts system
+description: Use when configure routes with createFileRoute, route options, and the routeTree.gen.ts system
 allowed-tools:
   - Read
   - Write

@@ -1,6 +1,6 @@
 ---
 name: tanstack:form-handling
-description: Build forms with TanStack Form or native forms with server mutations
+description: Use when build forms with TanStack Form or native forms with server mutations
 allowed-tools:
   - Read
   - Write

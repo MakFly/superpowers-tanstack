@@ -1,6 +1,6 @@
 ---
 name: tanstack:testing-patterns
-description: Test TanStack Start applications with proper mocking and isolation
+description: Use when test TanStack Start applications with proper mocking and isolation
 allowed-tools:
   - Read
   - Write

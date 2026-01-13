@@ -1,6 +1,6 @@
 ---
 name: tanstack:server-functions
-description: Create server functions with 'use server' directive for secure server-only execution
+description: Use when create server functions with 'use server' directive for secure server-only execution
 allowed-tools:
   - Read
   - Write

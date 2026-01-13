@@ -1,6 +1,6 @@
 ---
 name: tanstack:bootstrap-check
-description: Verify TanStack Start project configuration including Vite, TypeScript, and routing setup
+description: Use when verify TanStack Start project configuration including Vite, TypeScript, and routing setup
 allowed-tools:
   - Read
   - Glob

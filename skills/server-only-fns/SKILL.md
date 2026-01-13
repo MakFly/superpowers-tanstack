@@ -1,6 +1,6 @@
 ---
 name: tanstack:server-only-fns
-description: Implement server-only functions for database access, secrets, and sensitive operations
+description: Use when implement server-only functions for database access, secrets, and sensitive operations
 allowed-tools:
   - Read
   - Write

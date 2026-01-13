@@ -1,6 +1,6 @@
 ---
 name: tanstack:streaming
-description: Implement streaming SSR with deferred data and progressive rendering
+description: Use when implement streaming SSR with deferred data and progressive rendering
 allowed-tools:
   - Read
   - Write

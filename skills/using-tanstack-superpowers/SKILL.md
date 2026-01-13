@@ -1,6 +1,6 @@
 ---
 name: tanstack:using-tanstack-superpowers
-description: Entry point for TanStack Start Superpowers - lightweight workflow guidance and command map.
+description: Use when entry point for TanStack Start Superpowers - lightweight workflow guidance and command map.
 allowed-tools:
   - Read
   - Glob

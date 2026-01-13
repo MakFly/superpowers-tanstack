@@ -1,11 +1,8 @@
 ---
 name: tanstack:executing-plans
-description: Test-driven execution for TanStack Start - implementing features with comprehensive testing and quality assurance
+description: Use when test-driven execution for TanStack Start - implementing features with comprehensive testing and quality assurance
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

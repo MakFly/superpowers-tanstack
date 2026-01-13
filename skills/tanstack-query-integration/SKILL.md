@@ -1,6 +1,6 @@
 ---
 name: tanstack:tanstack-query-integration
-description: TanStack Query integration for data fetching - caching strategies, synchronization, and state management
+description: Use when tanStack Query integration for data fetching - caching strategies, synchronization, and state management
 allowed-tools:
   - Read
   - Write

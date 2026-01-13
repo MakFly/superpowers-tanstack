@@ -1,6 +1,6 @@
 ---
 name: tanstack:writing-plans
-description: Implementation planning for TanStack Start - task decomposition, routing architecture, and execution roadmaps
+description: Use when implementation planning for TanStack Start - task decomposition, routing architecture, and execution roadmaps
 allowed-tools:
   - Read
   - Glob

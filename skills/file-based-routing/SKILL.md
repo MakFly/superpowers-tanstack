@@ -1,6 +1,6 @@
 ---
 name: tanstack:file-based-routing
-description: Master TanStack Router's file-based routing with automatic route generation and type safety
+description: Use when master TanStack Router's file-based routing with automatic route generation and type safety
 allowed-tools:
   - Read
   - Write

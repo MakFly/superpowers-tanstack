@@ -1,6 +1,6 @@
 ---
 name: tanstack:error-boundaries
-description: Implement error boundaries with errorComponent and recovery patterns
+description: Use when implement error boundaries with errorComponent and recovery patterns
 allowed-tools:
   - Read
   - Write

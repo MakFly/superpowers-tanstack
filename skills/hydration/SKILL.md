@@ -1,6 +1,6 @@
 ---
 name: tanstack:hydration
-description: Handle hydration correctly with proper state synchronization
+description: Use when handle hydration correctly with proper state synchronization
 allowed-tools:
   - Read
   - Write
