@@ -70,6 +70,8 @@ If you see `Unknown skill`:
 
 Once installed, the plugin automatically detects TanStack Start projects and provides context-aware assistance.
 
+**Complexity tiers**: See `docs/complexity-tiers.md` for simple/medium/complex examples and how to adapt output.
+
 ### Interactive Commands
 
 - `/superpowers-tanstack:brainstorm` - Structured ideation for features
