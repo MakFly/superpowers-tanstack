@@ -1,6 +1,5 @@
 ---
 name: tanstack:client-only-fns
-description: Use when tanstack client only fns
 allowed-tools:
   - Read
   - Write
@@ -8,6 +7,7 @@ allowed-tools:
   - Bash
   - Glob
   - Grep
+description: Use when tanstack client only fns
 ---
 
 # tanstack:client-only-fns (Micro)
@@ -15,14 +15,12 @@ allowed-tools:
 ## Use when
 - Use when tanstack client only fns
 
-## Do
-- Keep changes minimal and focused
-- Ask before running servers/builds/tests
-- Follow existing project conventions
-
-## Avoid
-- Unnecessary context expansion
-- Changing unrelated files
+## Rules
+- Ask before running servers/builds/tests; keep changes minimal
 
 ## References
-- `reference.md` for full details
+- `reference.md`
+- `examples.md`
+- `docs/complexity-tiers.md`
+- `docs/project-examples.md`
+- `docs/project-catalog.md`
