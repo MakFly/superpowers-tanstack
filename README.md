@@ -58,6 +58,14 @@ Then call:
 Use the skill tanstack:route-loaders
 ```
 
+### Troubleshooting (Unknown skill)
+
+If you see `Unknown skill`:
+1. Restart Claude Code.
+2. Run `What skills are available?` to confirm the plugin is loaded.
+3. Ensure `enabledPlugins` includes `superpowers-tanstack@custom` in both configs.
+4. Use the fallback symlink if the plugin still does not expose skills.
+
 ## Quick Start
 
 Once installed, the plugin automatically detects TanStack Start projects and provides context-aware assistance.
