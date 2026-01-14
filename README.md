@@ -19,6 +19,45 @@ claude plugins add superpowers-tanstack
 
 Or add to your Claude Code plugins configuration.
 
+### Manual install (git clone)
+
+```bash
+git clone https://github.com/MakFly/superpowers-tanstack.git ~/.claude/plugins/superpowers-tanstack
+```
+
+Enable the plugin in both configs (Claude + GLM):
+
+```json
+// ~/.claude/settings.json
+{
+  "enabledPlugins": {
+    "superpowers-tanstack@custom": true
+  }
+}
+```
+
+```json
+// ~/.claude-glm/.claude.json
+{
+  "enabledPlugins": {
+    "superpowers-tanstack@custom": true
+  }
+}
+```
+
+Restart Claude Code.
+
+### Fallback: symlink skills (if plugin skills don’t load)
+
+```bash
+ln -s ~/.claude/plugins/superpowers-tanstack/skills/route-loaders ~/.claude/skills/tanstack-route-loaders
+```
+
+Then call:
+```
+Use the skill tanstack:route-loaders
+```
+
 ## Quick Start
 
 Once installed, the plugin automatically detects TanStack Start projects and provides context-aware assistance.
