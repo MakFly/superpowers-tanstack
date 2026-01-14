@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Route Configuration: basic setup and minimal flow
-
-## Medium
-- Route Configuration: auth + validation + basic caching
-
-## Complex
-- Route Configuration: multi-tenant + tags + async jobs
+- Simple: Route Configuration minimal flow
+- Medium: Route Configuration auth + validation
+- Complex: Route Configuration multi-tenant + async

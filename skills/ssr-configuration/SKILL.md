@@ -16,8 +16,9 @@ description: Use when tanstack ssr configuration
 - Use when tanstack ssr configuration
 
 ## Rules
-- Ask before running servers/builds/tests; keep changes minimal
-
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Load reference/examples only on explicit request
 ## References
 - `reference.md`
 - `examples.md`

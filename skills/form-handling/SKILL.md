@@ -16,8 +16,9 @@ description: Use when tanstack form handling
 - Use when tanstack form handling
 
 ## Rules
-- Ask before running servers/builds/tests; keep changes minimal
-
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Load reference/examples only on explicit request
 ## References
 - `reference.md`
 - `examples.md`
